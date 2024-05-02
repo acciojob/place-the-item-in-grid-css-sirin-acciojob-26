@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 100px); /* Two equal columns */
+  grid-template-rows: repeat(2, 100px); /* Two equal rows */
+  width: 200px; /* Total width of the grid */
+  height: 200px; /* Total height of the grid */
+}
